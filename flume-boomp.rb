@@ -39,9 +39,9 @@ live_loop :boomp do
     sleep (sample_duration flume, 2, slice: 15) -1
   end
   with_fx :reverb, room: 1 do
-    sleep 1
-    sample flume, 2, slice: 30, rate: 5, attack: 2
-    sleep 1
+    sleep 2
+    sample flume, 2, slice: 30, rate: 4, pre_amp: 1, amp: 2, attack: 2
+    sleep 2
     sample flume, 6, amp: 2, start: 0.599, finish: 0.79, rate: 0.90, release: 2
     sleep 0.10
     sample flume, 6, amp: 2, start: 0.599, finish: 0.79, rate: 0.90, release: 2
