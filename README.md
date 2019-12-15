@@ -15,3 +15,7 @@ flume = "~/your/path/to/Flume Sounds 1/"
 ...
 
 ````
+
+<br>
+
+[contributor code of conduct](docs/CODE_OF_CONDUCT.md)
